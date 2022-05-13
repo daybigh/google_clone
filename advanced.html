@@ -9,24 +9,24 @@
 			<a href="index.html">Search</a>
 		</div>
 		<div class="center">
-			<form>
+			<form action="https://www.google.ca/search" method="GET" autocomplete="off">
 				<div>
 					<label>all these words:</label>
-					<input>
+					<input type="text" name="as_q">
 				</div>
 				<div>
 					<label>this exact word or phrase:</label>
-					<input>
+					<input type="text" name="as_epq">
 				</div>
 				<div>
 					<label>any of these words:</label>
-					<input>
+					<input type="text" name="as_oq">
 				</div>
 				<div>
 					<label>none of these words:</label>
-					<input>
+					<input type="text" name="as_eq">
 				</div>
-				<button>Submit</button>
+				<input type="submit" value="Search">
 			</form>
 		</div>
 	</body>
